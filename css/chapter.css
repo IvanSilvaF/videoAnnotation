@@ -1,0 +1,41 @@
+
+.vjs-marker
+{
+  position:absolute;
+  background:red;
+  width:5px;
+  height:110%;
+  top:-5%;
+  z-index:30;
+  margin-left:-3px;
+}
+
+.vjs-marker:hover span 
+{
+  opacity:1;
+}
+
+.vjs-marker span
+{
+  position:absolute;
+  bottom:15px;
+  opacity:0;
+  margin-left:-20px;
+  z-index:90;
+  background:rgba(0,0,0,.8);
+  padding:8px;
+  font-size:10px;
+}
+
+/*#divVideo:before {
+  position: absolute;
+  content:"";
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  top: 100;
+  left: 100;
+  z-index: 1;
+  border: 3px solid green;
+  
+}*/

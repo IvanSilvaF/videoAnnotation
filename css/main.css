@@ -1,0 +1,26 @@
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+li {
+    margin: -5px;
+    padding: 6px;
+    background-color: lightblue;
+}
+
+*{
+    box-sizing: border-box;
+}    
+.left {
+    background-color: lightgrey;
+    padding: 20px;
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+}    
+.main {
+    background-color: #f1f1f1;
+    padding: 20px;
+    float: left;
+    width: 70%; /* The width is 60%, by default */
+}
